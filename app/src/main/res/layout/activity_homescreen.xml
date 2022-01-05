@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homescreen">
+
+    <Button
+        android:id="@+id/btnAttendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="attendanceClicked"
+        android:text="Attendance"
+        app:layout_constraintBottom_toTopOf="@+id/noticeboard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/noticeboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Notice_board"
+        android:text="Notice board"
+        app:layout_constraintBottom_toTopOf="@+id/chat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAttendance" />
+
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="chat"
+        android:text="chat"
+        app:layout_constraintBottom_toTopOf="@+id/passbook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noticeboard" />
+
+    <Button
+        android:id="@+id/passbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="passbook"
+        android:text="Passbook"
+        app:layout_constraintBottom_toTopOf="@+id/calculator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chat" />
+
+    <Button
+        android:id="@+id/calculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Calculator"
+        android:text="Calculator"
+        app:layout_constraintBottom_toTopOf="@+id/Anonymous_feedback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passbook" />
+
+    <Button
+        android:id="@+id/Anonymous_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Anonymous_feedback"
+        android:text="Anonymous feedback"
+        app:layout_constraintBottom_toTopOf="@+id/distress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calculator" />
+
+    <Button
+        android:id="@+id/distress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Distress_Alert"
+        android:text="Distress Alert"
+        app:layout_constraintBottom_toTopOf="@+id/testing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Anonymous_feedback" />
+
+    <TextView
+        android:id="@+id/testing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/distress" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="logout"
+        android:text="Log out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testing" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

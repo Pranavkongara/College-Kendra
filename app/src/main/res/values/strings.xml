@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">College Kendra</string>
+    <string-array name="Bit_con">
+        <item>Binary number</item>
+        <item>Octal number</item>
+        <item>Decimal number</item>
+        <item>Hex number</item>
+    </string-array>
+    <string-array name="College_names">
+        <item>Andhra University</item>
+        <item>Andhra University Womens</item>
+        <item>Gitam</item>
+        <item>ANITS</item>
+    </string-array>
+    <string-array name="Branches">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>MEC</item>
+        <item>EEE</item>
+        <item>CHEM</item>
+        <item>IT</item>
+    </string-array>
+</resources>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "741137840147",
+    "firebase_url": "https://final-year-64353-default-rtdb.firebaseio.com",
+    "project_id": "final-year-64353",
+    "storage_bucket": "final-year-64353.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741137840147:android:65132b16ad1aaac440e7e6",
+        "android_client_info": {
+          "package_name": "com.LogicBuild.collegekendra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741137840147-vrocaje1i22ehuf7k4kucsfb09f245is.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkaasiyN9lBV8icfQUjwtVr5rW3FzizSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741137840147-vrocaje1i22ehuf7k4kucsfb09f245is.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741137840147:android:903ae09800d2617d40e7e6",
+        "android_client_info": {
+          "package_name": "com.example.aaaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741137840147-vrocaje1i22ehuf7k4kucsfb09f245is.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkaasiyN9lBV8icfQUjwtVr5rW3FzizSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741137840147-vrocaje1i22ehuf7k4kucsfb09f245is.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
